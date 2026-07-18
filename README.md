@@ -44,31 +44,31 @@ A full-stack video conferencing web application built using the MERN stack, WebR
 
 ## Project Structure
 
+```text
 Callixa
 │
 ├── frontend
-│ ├── src
-│ │ ├── api
-│ │ ├── components
-│ │ ├── hooks
-│ │ ├── pages
-│ │ ├── socket
-│ │ └── webrtc
-│ └── package.json
+│   ├── src
+│   │   ├── api
+│   │   ├── components
+│   │   ├── hooks
+│   │   ├── pages
+│   │   ├── socket
+│   │   └── webrtc
+│   └── package.json
 │
 ├── backend
-│ ├── src
-│ │ ├── config
-│ │ ├── controllers
-│ │ ├── middleware
-│ │ ├── models
-│ │ ├── routes
-│ │ └── sockets
-│ └── package.json
+│   ├── src
+│   │   ├── config
+│   │   ├── controllers
+│   │   ├── middleware
+│   │   ├── models
+│   │   ├── routes
+│   │   └── sockets
+│   └── package.json
 │
 └── README.md
-
-````
+```
 
 ---
 
@@ -80,7 +80,7 @@ Callixa
 git clone https://github.com/Manasvibyte/Callixa.git
 
 cd Callixa
-````
+```
 
 ---
 
