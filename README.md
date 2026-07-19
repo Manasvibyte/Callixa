@@ -1,30 +1,31 @@
 # Callixa
 
-A full-stack video conferencing web application built using the MERN stack, WebRTC, and Socket.IO. Callixa enables users to create and join meeting rooms, communicate through real-time video and audio, and exchange messages using an integrated chat interface.
+Callixa is a full-stack video conferencing web application that enables users to securely register, log in, create meetings, join meetings, communicate through real-time video and audio, and exchange messages instantly.
 
----
+## Live Demo
+
+🌐 Frontend: https://callixa-liard.vercel.app
+
+⚙️ Backend API: https://callixa-api.onrender.com
 
 ## Features
 
-- User Authentication (Register & Login)
-- Create and Join Meeting Rooms
-- Real-time Video Calling
-- Real-time Audio Calling
-- Real-time Chat
+- User Authentication (JWT)
+- Create & Join Meetings
+- Real-time Video Calling (WebRTC)
+- Real-time Chat (Socket.IO)
 - Mute / Unmute Microphone
 - Camera On / Off
 - Copy Meeting ID
-- Responsive and Minimal User Interface
-- WebRTC Peer-to-Peer Communication
-- Socket.IO Signaling Server
-
----
+- Responsive User Interface
+- MongoDB Database Integration
 
 ## Tech Stack
 
 ### Frontend
 
-- React (Vite)
+- React
+- Vite
 - Tailwind CSS
 - Axios
 - Socket.IO Client
@@ -34,86 +35,37 @@ A full-stack video conferencing web application built using the MERN stack, WebR
 
 - Node.js
 - Express.js
-- MongoDB Atlas
+- MongoDB
 - Mongoose
 - Socket.IO
-- JSON Web Token (JWT)
-- bcrypt
+- JWT Authentication
+- Bcrypt
 
----
-
-## Project Structure
+## Folder Structure
 
 ```text
 Callixa
-│
-├── frontend
-│   ├── src
-│   │   ├── api
-│   │   ├── components
-│   │   ├── hooks
-│   │   ├── pages
-│   │   ├── socket
-│   │   └── webrtc
-│   └── package.json
-│
 ├── backend
-│   ├── src
-│   │   ├── config
-│   │   ├── controllers
-│   │   ├── middleware
-│   │   ├── models
-│   │   ├── routes
-│   │   └── sockets
-│   └── package.json
-│
-└── README.md
+└── frontend
 ```
-
----
 
 ## Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Manasvibyte/Callixa.git
-
-cd Callixa
 ```
 
----
-
-## Backend Setup
-
-Install backend dependencies.
+### Backend
 
 ```bash
 cd backend
 npm install
-```
-
-Create a `.env` file inside the `backend` folder.
-
-```env
-PORT=5000
-
-MONGODB_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_secret_key
-```
-
-Start the backend server.
-
-```bash
 npm run dev
 ```
 
----
-
-## Frontend Setup
-
-Open another terminal.
+### Frontend
 
 ```bash
 cd frontend
@@ -121,38 +73,16 @@ npm install
 npm run dev
 ```
 
-The application will be available at:
+## Environment Variables
 
+Create a `.env` file inside the `backend` folder.
+
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+FRONTEND_URL=http://localhost:5173
 ```
-http://localhost:5173
-```
-
----
-
-## Future Improvements
-
-- Screen Sharing
-- Multi-participant Video Calls
-- File Sharing
-- Chat Notifications
-- Meeting Recording
-- User Profile Management
-- Meeting History
-- Dark Mode
-
----
-
-## Live Demo
-
-**Frontend**
-
-Coming Soon
-
-**Backend**
-
-Coming Soon
-
----
 
 ## Author
 
@@ -162,6 +92,4 @@ GitHub: https://github.com/Manasvibyte
 
 ---
 
-## License
-
-This project was developed for educational and learning purposes.
+Built with ❤️ using React, Node.js, Express.js, MongoDB, Socket.IO, and WebRTC.
