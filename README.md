@@ -88,7 +88,7 @@ FRONTEND_URL=http://localhost:5173
 
 **Manasvi Patidar**
 
-GitHub: https://github.com/Manasvibyte
+GitHub: https://github.com/manasvi-patidar
 
 ---
 
