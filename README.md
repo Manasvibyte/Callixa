@@ -54,7 +54,7 @@ Callixa
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Manasvibyte/Callixa.git
+git clone https://github.com/manasvi-patidar/Callixa.git
 ```
 
 ### Backend
